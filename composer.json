@@ -1,0 +1,21 @@
+{
+    "name": "nebado/tag-parser",
+    "description": "Tag Parser",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-license",
+    "authors": [
+        {
+            "name": "Ruslan Lazurenko",
+            "email": "ruslan.nbd@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "nebado\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
